@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnSmart AI - Anshul Raj Verma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+    <h1>🚀 Loading Your Future<span id="dots"></span></h1>
+</div>
+
+    <div class="container">
+        
+        
+        
+        <h1 class="title">🚀 LearnSmart AI</h1>
+        <p>⚡ Learn Anything in Seconds with AI</p>
+        <p class="subtitle">Created by Anshul Raj Verma</p>
+        <p>🔥 Popular: Coding | YouTube | Study | Trading | Jobs & Internships</p>
+        <p>🔥 Search: 10th ke baad kya kare | 12th ke baad kya kare | best career options</p>
+        
+        <input type="text" id="input" placeholder="What do you want to learn?">
+        
+        <div class="buttons">
+    <button onclick="generate()">Start Learning</button>
+    <button onclick="toggleDark()">🌙</button>
+
+<script>
+    
+function toggleDark() {
+  document.body.classList.toggle("dark");
+}
+</script>
+
+<style>
+.dark {
+  background:#111;
+  color:#fff;
+}
+</style>
+    <button onclick="share()">📤 Share</button>
+</div>
+
+
+<div class="career-section">
+    <!-- pura career section yaha -->
+</div>
+
+    <div class="cards">
+        <div class="card" onclick="showRoadmap('engineer')">Engineer</div>
+        <div class="card" onclick="showRoadmap('doctor')">Doctor</div>
+        <div class="card" onclick="showRoadmap('teacher')">Teacher</div>
+        <div class="card" onclick="showRoadmap('civil')">Civil Services</div>
+        <div class="card" onclick="showRoadmap('pharmacist')">Pharmacist</div>
+        <div class="card" onclick="showRoadmap('law')">Law</div>
+
+    </div>
+
+    <div id="roadmap"></div>
+</div>
+
+<style>
+.career-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #111;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: #28a745;
+    transform: scale(1.1);
+}
+
+#roadmap {
+    margin-top: 30px;
+    text-align: left;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+</style>
+
+<script>
+    
+
+    
+function showRoadmap(field) {
+    let content = "";
+
+   if(field === "engineer") {
+    content = `
+    <h3>👨‍💻 Engineering Roadmap</h3>
+
+    <h4>🔹 After 10th (Diploma / ITI)</h4>
+    <ul>
+        <li>Diploma (Polytechnic) – 3 Years</li>
+        <li>ITI (Industrial Training Institute) – 1-2 Years</li>
+        <li>Diploma ke baad B.Tech me lateral entry</li>
+    </ul>
+
+    <h4>🎓 After 12th (PCM)</h4>
+    <ul>
+        <li>JEE Main → JEE Advanced → IIT / NIT</li>
+        <li>Ya direct private/state engineering colleges</li>
+    </ul>
+
+    <h4>🚀 Engineering Trades + Benefits + Skills</h4>
+
+    <h5>💻 Computer Science</h5>
+    <ul>
+        <li>Benefit: High salary + IT jobs + remote work</li>
+        <li>Skills: Programming (HTML, CSS, JS, Python), Problem solving</li>
+    </ul>
+
+    <h5>⚙️ Mechanical Engineering</h5>
+    <ul>
+        <li>Benefit: Core industry jobs (factory, automobile)</li>
+        <li>Skills: Machine design, AutoCAD, practical knowledge</li>
+    </ul>
+
+    <h5>🏗️ Civil Engineering</h5>
+    <ul>
+        <li>Benefit: Government jobs + construction field</li>
+        <li>Skills: Site management, AutoCAD, planning</li>
+    </ul>
+
+    <h5>⚡ Electrical Engineering</h5>
+    <ul>
+        <li>Benefit: Power sector jobs + stable career</li>
+        <li>Skills: Circuit knowledge, wiring, safety</li>
+    </ul>
+
+    <h5>🤖 AI / Data Science</h5>
+    <ul>
+        <li>Benefit: Future field + very high demand</li>
+        <li>Skills: Python, Machine Learning, Data analysis</li>
+    </ul>
+
+    <h4>🔧 ITI Trades (Skill Based)</h4>
+
+    <h5>🔌 Electrician</h5>
+    <ul>
+        <li>Benefit: Quick job + high demand</li>
+        <li>Skills: Wiring, repair, safety knowledge</li>
+    </ul>
+
+    <h5>🔩 Fitter</h5>
+    <ul>
+        <li>Benefit: Factory jobs</li>
+        <li>Skills: Machine handling, fitting tools</li>
+    </ul>
+
+    <h5>🔥 Welder</h5>
+    <ul>
+        <li>Benefit: Industrial + abroad jobs</li>
+        <li>Skills: Welding techniques, safety</li>
+    </ul>
+
+    <h5>💻 Computer Operator</h5>
+    <ul>
+        <li>Benefit: Office jobs</li>
+        <li>Skills: MS Office, typing, basic computer</li>
+    </ul>
+
+    <!-- 🔥 NEW SECTION ADDED -->
+    <h4>👩‍🔧 ITI Trades for Girls</h4>
+
+    <h5>💻 COPA (Computer Operator & Programming Assistant)</h5>
+    <ul>
+        <li>Duration: 1 Year</li>
+        <li>Jobs: Data Entry, Computer Operator</li>
+    </ul>
+
+    <h5>🧵 Sewing Technology</h5>
+    <ul>
+        <li>Duration: 1 Year</li>
+        <li>Jobs: Boutique, Fashion Designing</li>
+    </ul>
+
+    <h5>💄 Cosmetology</h5>
+    <ul>
+        <li>Duration: 1-2 Years</li>
+        <li>Jobs: Beauty Parlour, Makeup Artist</li>
+    </ul>
+
+    <h5>🏥 Health Sanitary Inspector</h5>
+    <ul>
+        <li>Duration: 1 Year</li>
+        <li>Jobs: Hospital, Govt Sector</li>
+    </ul>
+
+    <h5>🖥️ Stenography</h5>
+    <ul>
+        <li>Duration: 1 Year</li>
+        <li>Jobs: Office, Clerk, Assistant</li>
+    </ul>
+
+    <h4>💡 Extra Skills (Must for Everyone)</h4>
+    <ul>
+        <li>Communication Skills</li>
+        <li>English Speaking</li>
+        <li>Computer Knowledge</li>
+        <li>Time Management</li>
+    </ul>
+    `;
+}
+
+    else if(field === "doctor") {
+    content = `
+    <h3>🩺 Doctor Roadmap</h3>
+    <ul>
+        <li>Step 1: 10th pass with Science</li>
+        <li>Step 2: 11th-12th me PCB (Biology)</li>
+        <li>Step 3: NEET Exam clear karo</li>
+        <li>Step 4: MBBS Degree (5.5 years)</li>
+        <li>Step 5: Internship complete karo</li>
+        <li>Step 6: MD / Specialization</li>
+    </ul>
+
+    <h4>📌 Other Related Fields</h4>
+    <ul>
+        <li>B.Sc Nursing</li>
+        <li>Physiotherapy</li>
+        <li>Lab Technician</li>
+        <li>Medical Research</li>
+    </ul>
+
+    <h4>💡 Required Skills</h4>
+    <ul>
+        <li>Biology strong hona chahiye</li>
+        <li>Patience & hard work</li>
+        <li>Communication skills</li>
+    </ul>
+    `;
+}
+
+   else if(field === "teacher") {
+    content = `
+    <h3>📚 Teacher Roadmap</h3>
+    <ul>
+        <li>Step 1: 12th pass karo</li>
+        <li>Step 2: Graduation complete karo</li>
+        <li>Step 3: B.Ed / D.El.Ed karo</li>
+        <li>Step 4: CTET / TET clear karo</li>
+        <li>Step 5: School Teacher job</li>
+    </ul>
+
+    <h4>🏫 School Teacher</h4>
+    <ul>
+        <li>Primary Teacher (Class 1–5)</li>
+        <li>TGT (Class 6–10)</li>
+        <li>PGT (Class 11–12)</li>
+    </ul>
+
+    <h4>🎓 Degree College Teacher (Professor)</h4>
+    <ul>
+        <li>Graduation complete karo</li>
+        <li>Post Graduation (Master Degree)</li>
+        <li>UGC NET clear karo</li>
+        <li>PhD (optional but best)</li>
+        <li>Assistant Professor ban sakte ho</li>
+    </ul>
+
+    <h4>🏗 Engineering College Teacher</h4>
+    <ul>
+        <li>B.Tech complete karo</li>
+        <li>M.Tech (important)</li>
+        <li>GATE exam helpful hota hai</li>
+        <li>PhD (top colleges ke liye)</li>
+        <li>Assistant Professor / Lecturer</li>
+    </ul>
+
+    <h4>📝 Important Exams</h4>
+    <ul>
+        <li>CTET / TET (School)</li>
+        <li>UGC NET (College)</li>
+        <li>GATE (Engineering field)</li>
+    </ul>
+
+    <h4>💡 Skills Required</h4>
+    <ul>
+        <li>Good Communication</li>
+        <li>Deep Subject Knowledge</li>
+        <li>Confidence & Teaching Skills</li>
+        <li>Patience</li>
+    </ul>
+    `;
+}
+    
+else if(field === "law") {
+    content = `
+    <h3>⚖️ Law Roadmap</h3>
+    <ul>
+        <li>Step 1: 12th pass (any stream)</li>
+        <li>Step 2: CLAT / Entrance Exam</li>
+        <li>Step 3: LLB (3 years) ya BA LLB (5 years)</li>
+        <li>Step 4: Internship (Court / Lawyer ke saath)</li>
+        <li>Step 5: Bar Council Registration</li>
+        <li>Step 6: Lawyer / Advocate ban sakte ho</li>
+    </ul>
+
+    <h4>🏛 Career Options</h4>
+    <ul>
+        <li>Advocate (Court)</li>
+        <li>Corporate Lawyer</li>
+        <li>Legal Advisor</li>
+        <li>Judge (after experience)</li>
+    </ul>
+
+    <h4>💡 Skills Required</h4>
+    <ul>
+        <li>Strong Communication</li>
+        <li>Confidence</li>
+        <li>Argument Skills</li>
+        <li>Legal Knowledge</li>
+    </ul>
+    `;
+}
+
+
+    else if(field === "civil") {
+    content = `
+    <h3>🏛 Civil Services Roadmap</h3>
+    <ul>
+        <li>Step 1: 12th pass (any stream)</li>
+        <li>Step 2: Graduation complete karo</li>
+        <li>Step 3: UPSC Preparation start karo</li>
+        <li>Step 4: Prelims Exam</li>
+        <li>Step 5: Mains Exam</li>
+        <li>Step 6: Interview</li>
+    </ul>
+
+    <h4>👑 Top Posts</h4>
+    <ul>
+        <li>IAS (District Collector)</li>
+        <li>IPS (Police Officer)</li>
+        <li>IFS (Foreign Service)</li>
+        <li>IRS (Income Tax Officer)</li>
+    </ul>
+
+    <h4>🏢 Other Government Jobs</h4>
+    <ul>
+        <li>SSC (CGL, CHSL)</li>
+        <li>Banking (PO, Clerk)</li>
+        <li>Railway Jobs</li>
+        <li>State PCS (SDM, DSP)</li>
+    </ul>
+
+    <h4>💡 Skills Required</h4>
+    <ul>
+        <li>Strong GK & Current Affairs</li>
+        <li>Answer Writing Practice</li>
+        <li>Discipline & Time Management</li>
+    </ul>
+    `;
+}
+else if(field === "pharmacist") {
+    content = `
+    <h3>💊 Pharmacist Roadmap</h3>
+    <ul>
+        <li>Step 1: 10th pass with Science</li>
+        <li>Step 2: 11th-12th me PCB / PCM</li>
+        <li>Step 3: D.Pharm (2 years) ya B.Pharm (4 years)</li>
+        <li>Step 4: Internship / Training</li>
+        <li>Step 5: Pharmacy License lo</li>
+        <li>Step 6: Job (Hospital / Medical Store / Pharma Company)</li>
+    </ul>
+
+    
+
+    <h4>💡 Required Skills</h4>
+    <ul>
+        <li>Basic Science knowledge</li>
+        <li>Medicine understanding</li>
+        <li>Business skills (for shop)</li>
+    </ul>
+    `;
+}
+    document.getElementById("roadmap").innerHTML = content;
+}
+</script>
+
+    
+<a href="https://www.canva.com/resumes/" target="_blank" class="resume-btn">
+    📄 Create Resume
+</a>
+
+    
+           <div id="result" class="result-box"></div>
+    </div>
+
+    <script src="script.js"></script>
+    
+    <footer style="background:#111; color:#fff; padding:30px; text-align:center;">
+
+    <p>Have any questions? Feel free to reach out 👇</p>
+
+    <p>📧 Email: anshulverma6809@gmail.com</p>
+    
+    <p style="margin-top:20px; font-size:14px; color:#aaa;">
+        © 2026 Apexora | All Rights Reserved
+    </p>
+
+</footer>
+</body>
+</html>
