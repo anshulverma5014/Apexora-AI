@@ -148,15 +148,35 @@ else if(input.includes("dance") || input.includes("dancing")) {
     `;
 }
 
-else if(input.includes("business")) {
+else if(
+    input.includes("entrepreneur") || 
+    input.includes("entrepreneurship") || 
+    input.includes("startup") || 
+    input.includes("business")
+) {
     result.innerHTML = `
-    <h3>💰 Business Learning Roadmap</h3>
+    <h3>🚀 Entrepreneurship Roadmap</h3>
 
-    🔹 Step 1: Basic business ideas samjho<br>
-    🔹 Step 2: Small investment se start karo<br>
-    🔹 Step 3: Marketing seekho (Instagram, Ads)<br>
-    🔹 Step 4: Customer dealing improve karo<br><br>
+    🔹 Step 1: Business ideas samjho<br>
+    🔹 Step 2: Problem identify karo<br>
+    🔹 Step 3: Market research karo<br>
+    🔹 Step 4: Small start karo<br>
+    🔹 Step 5: MVP (Minimum Product) banao<br>
+    🔹 Step 6: Marketing seekho (Instagram, Ads)<br>
+    🔹 Step 7: Customer feedback lo<br>
+    🔹 Step 8: Scale your business 🚀<br><br>
+    <h4>🔥 Learn From:</h4>
+    🔹 YouTube: Startup India<br>
+    
+    🔹 <a href="https://www.youtube.com/@startupindiaofficial" target="_blank">Startup India</a><br>
+    
+    🔹 Books: Rich Dad Poor Dad<br><br>
 
+    <h4>💡 Business Ideas:</h4>
+    🔹 Dropshipping<br>
+    🔹 Freelancing<br>
+    🔹 YouTube Channel<br>
+    🔹 Digital Products<br>
     <h4>🔥 Top Creators:</h4>
 
     <div class="creator">
@@ -168,8 +188,7 @@ else if(input.includes("business")) {
     </div>
 
     <br><br>
-    💡 Tip: Small start karo, bada socho 🚀
-  
+    💡 Tip: Be your own boss 💼
     `;
 }
 
