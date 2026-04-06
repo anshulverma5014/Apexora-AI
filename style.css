@@ -324,6 +324,22 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     background: rgba(255,255,255,0.2);
 }
+
+#animatedText {
+    font-weight: bold;
+    color: #fff;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0.5; }
+}
+a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 a:hover {
     text-decoration: underline;
 }
