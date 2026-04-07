@@ -896,7 +896,7 @@ else if(input.includes("fitness") || input.includes("gym")) {
     💡 Tip: Discipline = transformation 🔥
     `;
 }
-else if(input.includes("trading")) {
+else if(input.includes("trading roadmap")) {
     result.innerHTML = `
     <h3>📈 Trading Roadmap & Growth</h3>
 
@@ -937,8 +937,6 @@ else if(input.includes("trading")) {
     <h4>📍 Offline Learning</h4>
     👉 Local trading classes search karo<br>
     👉 Ya online courses join karo<br><br>
-
-
     <br>
     💡 Tip: Knowledge + patience = profit 💰
     `;
