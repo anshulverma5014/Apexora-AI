@@ -899,32 +899,19 @@ else if(input.includes("fitness") || input.includes("gym")) {
 
 else if(input.includes("trading")) {
     result.innerHTML = `
-    <h3>📈 Trading me Growth</h3>
-
-    🔹 Market basics samjho 📊<br>
-    🔹 Risk management seekho ⚠️<br>
-    🔹 Demo account se practice karo 💻<br><br>
-
-    <div class="creator">
-        <a href="https://www.youtube.com/results?search_query=stock+market+india+beginner" target="_blank">
-        Trading Videos
-        </a>
-    </div>
-
-    <br>
-    💡 Tip: Knowledge + patience = profit 💰
-    `;
-}
-else if(input.includes("trading")) {
-    result.innerHTML = `
-    <h3>📈 Trading Roadmap</h3>
+    <h3>📈 Trading Roadmap & Growth</h3>
 
     ⚠️ Risk hai — pehle knowledge lo, direct paisa mat lagao<br><br>
-
-    🔹 Step 1: Stock market basics samjho<br>
-    🔹 Step 2: Chart reading (candlestick) seekho<br>
-    🔹 Step 3: Demo account use karo<br>
-    🔹 Step 4: Risk management seekho<br><br>
+     🔹 Stock market basics samjho 📊<br>
+     🔹 Chart reading (candlestick) seekho 📉<br>
+     🔹 Demo account use karo 💻<br>
+     🔹 Risk management seekho ⚠️<br>
+     🔹 Trading psychology samjho 🧠<br>
+     🔹 Support & Resistance seekho 📍<br>
+     🔹 Technical indicators (RSI, MACD) samjho 📊<br>
+     🔹 News aur market trends follow karo 📰<br>
+     🔹 Proper strategy banao (random trade mat lo) 🎯<br>
+     🔹 Trading journal maintain karo 📒<br><br>
 
     <h4>🔥 Top Trading Creators:</h4>
 
@@ -939,6 +926,12 @@ else if(input.includes("trading")) {
     <div class="creator">
         <a href="https://www.youtube.com/@BoomingBulls" target="_blank">Booming Bulls</a>
     </div>
+ 
+    <div class="creator">
+        <a href="https://www.youtube.com/results?search_query=stock+market+india+beginner" target="_blank">
+        Trading Videos
+        </a>
+    </div>
 
     <br><br>
 
@@ -946,7 +939,9 @@ else if(input.includes("trading")) {
     👉 Local trading classes search karo<br>
     👉 Ya online courses join karo<br><br>
 
-    💡 Tip: Pehle seekho, phir invest karo 🚀
+
+    <br>
+    💡 Tip: Knowledge + patience = profit 💰
     `;
 }
 else if(input.includes("fun") || input.includes("timepass")) {
