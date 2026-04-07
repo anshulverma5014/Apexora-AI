@@ -959,22 +959,6 @@ else if(input.includes("fun") || input.includes("timepass")) {
     💡 Tip: Thodi masti bhi zaroori hai 😜
     `;
 }
-
-else if(input.includes("fun") || input.includes("timepass")) {
-    result.innerHTML = `
-    <h3>😂 Fun Learning Mode</h3>
-
-    🔹 Kaam kam, masti zyada 😎<br>
-    🔹 Life ko enjoy karo<br><br>
-
-    <h4>🔥 Funny Ideas:</h4>
-    👉 Dost ko prank kaise kare 🤣<br>
-    👉 Lazy day kaise spend kare 🛌<br>
-    👉 1 din bina phone ke survive karo 📵<br><br>
-
-    💡 Tip: Thodi masti bhi zaroori hai 😜
-    `;
-}
 else if(input.includes("office") || input.includes("ppt") || input.includes("ms")) {
     result.innerHTML = `
     <h3>📄 Office Tools (Online)</h3>
