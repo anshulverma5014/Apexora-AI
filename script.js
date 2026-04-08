@@ -444,11 +444,11 @@ else if(input.includes("interview")) {
     <div class="creator">
         <a href="https://www.youtube.com/@ApnaCollegeOfficial" target="_blank">Apna College</a>
     </div>
-
-    <div class="creator">
-        <a href="https://www.youtube.com/@HarkiratSingh" target="_blank">Harkirat Singh</a>
+    
+      <div class="creator">
+        <a href="https://www.youtube.com/@AmanDhattarwal" target="_blank">Aman Dhattarwal</a>
     </div>
-
+    
     <div class="creator">
         <a href="https://www.youtube.com/@AnkurWarikoo" target="_blank">Ankur Warikoo</a>
     </div>
@@ -481,8 +481,15 @@ else if(input.includes("english")) {
         <a href="https://www.youtube.com/@LearnEnglishWithTVSeries" target="_blank">Learn English with TV Series</a>
     </div>
 
-    <br><br>
-    💡 Tip: Roz practice = fast improvement 🚀
+    <h4>📱 Best Apps:</h4>
+
+    <div class="creator">
+        <a href="https://play.google.com/store/apps/details?id=com.duolingo" target="_blank">Duolingo</a>
+    </div>
+
+    <div class="creator">
+        <a href="https://play.google.com/store/apps/details?id=com.helloenglish" target="_blank">Hello English</a>
+    </div>
     `;
 }
 else if(input.includes("lkg") || input.includes("ukg") || input.includes("kids")) {
