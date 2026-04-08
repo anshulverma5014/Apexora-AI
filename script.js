@@ -701,32 +701,21 @@ else if(input.includes("fitness") || input.includes("gym")) {
     `;
 }
 
-else if(input.includes("trading")) {
+else if(input.includes("finance") || input.includes("stock") || input.includes("share") || input.includes("market") || input.includes("trading")) {
     result.innerHTML = `
-    <h3>📈 Trading me Growth</h3>
+    <h3>📈 Finance, Share Market & Trading </h3>
 
-    🔹 Market basics samjho 📊<br>
-    🔹 Risk management seekho ⚠️<br>
-    🔹 Demo account se practice karo 💻<br><br>
-
-    <div class="creator">
-        <a href="https://www.youtube.com/results?search_query=stock+market+india+beginner" target="_blank">
-        Trading Videos
-        </a>
-    </div>
-
-    <br>
-    💡 Tip: Knowledge + patience = profit 💰
-    `;
-}
-else if(input.includes("finance") || input.includes("stock") || input.includes("share") || input.includes("market")) {
-    result.innerHTML = `
-    <h3>📈 Finance & Share Market</h3>
-
-    🔹 Basics samjho (stock kya hota hai) 📊<br>
-    🔹 Long term investment seekho 💰<br>
-    🔹 Risk management samjho ⚠️<br>
-    🔹 Daily market news follow karo 📰<br><br>
+    ⚠️ Risk hai — pehle knowledge lo, direct paisa mat lagao<br><br>
+     🔹 Stock market basics samjho 📊<br>
+     🔹 Chart reading (candlestick) seekho 📉<br>
+     🔹 Demo account use karo 💻<br>
+     🔹 Risk management seekho ⚠️<br>
+     🔹 Trading psychology samjho 🧠<br>
+     🔹 Support & Resistance seekho 📍<br>
+     🔹 Technical indicators (RSI, MACD) samjho 📊<br>
+     🔹 News aur market trends follow karo 📰<br>
+     🔹 Proper strategy banao (random trade mat lo) 🎯<br>
+     🔹 Trading journal maintain karo 📒<br><br>
 
     <h4>🔥 Best Platforms:</h4>
 
@@ -747,6 +736,14 @@ else if(input.includes("finance") || input.includes("stock") || input.includes("
     <h4>🎥 Learn from YouTube:</h4>
 
     <div class="creator">
+        <a href="https://www.youtube.com/@TradingChanakya" target="_blank">Trading Chanakya</a>
+    </div>
+
+    <div class="creator">
+        <a href="https://www.youtube.com/@PushkarRajThakurOfficial" target="_blank">Pushkar Raj Thakur Official</a>
+    </div>
+
+    <div class="creator">
         <a href="https://www.youtube.com/results?search_query=stock+market+for+beginners+india" target="_blank">
         Share Market Basics
         </a>
@@ -754,8 +751,13 @@ else if(input.includes("finance") || input.includes("stock") || input.includes("
 
     <br><br>
 
-    💡 Tip: Pehle seekho fir invest karo 💯<br>
-    💡 Long term = best profit 🚀
+    💡 <h4>📍 Offline Learning</h4>
+    👉 Local trading classes search karo<br>
+    👉 Ya online courses join karo<br><br>
+
+
+    <br>
+    💡 Tip: Knowledge + patience = profit 💰
     `;
 }
 else if(input.includes("video editing") || input.includes("editing")) {
