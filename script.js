@@ -288,6 +288,73 @@ else if(
     💡 Tip: Daily check karo for best opportunities 🚀
     `;
 }
+else if(input.includes("engineering college")) {
+    result.innerHTML = `
+    <h3>🎓 Top Engineering Colleges (India)</h3>
+
+      <a href="https://www.iitm.ac.in" target="_blank">IIT Madras</a> <br>
+      <a href="https://home.iitd.ac.in" target="_blank">IIT Delhi</a>  <br>
+      <a href="https://www.iitb.ac.in" target="_blank">IIT Bombay</a>  <br>
+      <a href="https://www.bits-pilani.ac.in" target="_blank">BITS Pilani</a>  <br>
+      <a href="https://www.iitk.ac.in" target="_blank">IIT Kanpur</a> <br>
+      <a href="https://www.iitkgp.ac.in" target="_blank">IIT Kharagpur</a> <br>
+      <a href="https://vit.ac.in" target="_blank">VIT Vellore</a> <br>
+      <a href="https://www.srmist.edu.in" target="_blank">SRM University</a> <br>
+      <a href="http://dtu.ac.in" target="_blank">DTU Delhi</a> <br>
+      <a href="https://www.nitt.edu" target="_blank">NIT Trichy</a> <br>
+      <a href="https://www.iimtindia.net" target="_blank">IIMT University Meerut</a> <br>
+      <a href="https://www.subharti.org" target="_blank">Subharti University</a> <br>
+      <a href="https://www.abes.ac.in" target="_blank">ABES Engineering College</a> <br>
+      <a href="https://www.amity.edu/noida" target="_blank">Amity University, Noida</a> <br>
+      <a href="https://www.sharda.ac.in" target="_blank">Sharda University</a> <br>
+      <a href="https://www.galgotiasuniversity.edu.in" target="_blank">Galgotias University</a> <br>
+      <a href="https://www.niet.co.in" target="_blank">NIET Noida</a> <br>
+
+    `;
+}
+
+else if(input.includes("mbbs") || input.includes("medical college")) {
+    result.innerHTML = `
+    <h3>🏥 Top MBBS Colleges (India)</h3>
+
+      <a href="https://www.aiims.edu" target="_blank">AIIMS Delhi</a> <br>
+      <a href="https://www.cmch-vellore.edu" target="_blank">CMC Vellore</a> <br>
+      <a href="https://afmc.nic.in" target="_blank">AFMC Pune</a> <br>
+      <a href="https://jipmer.edu.in" target="_blank">JIPMER Puducherry</a> <br>
+      <a href="https://kgmu.org" target="_blank">KGMU Lucknow</a> <br>
+      <a href="https://pgimer.edu.in" target="_blank">PGIMER Chandigarh</a> <br>
+      <a href="https://manipal.edu" target="_blank">Manipal University</a> <br>
+      <a href="https://www.bhu.ac.in" target="_blank">BHU Medical College</a> <br>
+      <a href="https://www.srmist.edu.in" target="_blank">SRM Medical College</a> <br>
+      <a href="https://www.amrita.edu" target="_blank">Amrita Institute</a> <br>
+      <a href="https://www.gims.ac.in" target="_blank">Government Institute of Medical Sciences, Greater Noida</a> <br>
+      <a href="https://subharti.org" target="_blank">Subharti Medical College, Meerut</a> <br>
+      <a href="https://www.sharda.ac.in" target="_blank">Sharda Medical College</a> <br>
+      <a href="https://www.amity.edu" target="_blank">Amity Medical Programs</a> <br><br>
+
+    `;
+}
+else if(input.includes("law college")) {
+    result.innerHTML = `
+    <h3>⚖ Top Law Colleges (India)</h3>
+
+      <a href="https://www.nls.ac.in" target="_blank">NLSIU Bangalore</a> <br>
+      <a href="https://www.nalsar.ac.in" target="_blank">NALSAR Hyderabad</a><br>
+      <a href="https://www.nludelhi.ac.in" target="_blank">NLU Delhi</a><br>
+      <a href="https://www.symlaw.ac.in" target="_blank">Symbiosis Law School</a> <br>
+      <a href="https://jgu.edu.in" target="_blank">Jindal Global Law School</a> <br>
+      <a href="https://law.du.ac.in" target="_blank">Faculty of Law, DU</a> <br>
+      <a href="https://www.gnlu.ac.in" target="_blank">GNLU Gujarat</a> <br>
+      <a href="https://christuniversity.in" target="_blank">Christ University</a> <br>
+      <a href="https://www.amity.edu" target="_blank">Amity Law School</a> <br>
+      <a href="https://ilslaw.edu" target="_blank">ILS Law College</a><br>
+      <a href="https://www.ccsuniversity.ac.in" target="_blank">CCS University (Law)</a> <br><br>
+      <a href="https://www.sharda.ac.in" target="_blank">Sharda University (Law)</a> <br>
+      <a href="https://www.galgotiasuniversity.edu.in" target="_blank">Galgotias Law School</a><br>
+      <a href="https://www.hierank.org" target="_blank">Hierank School of Law</a> <br>
+    
+    `;
+}
 
 else if(input.includes("arduino") || input.includes("project")) {
     result.innerHTML = `
