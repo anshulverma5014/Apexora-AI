@@ -216,44 +216,91 @@ else if(input.includes("singing")) {
     💡 Tip: Daily practice = perfect voice 🎶
     `;
 }
-else if(input.includes("10") || input.includes("10th")) {
+else if(input.includes("11") || input.includes("11th")) {
     result.innerHTML = `
-    <h3>🎓 After 10th – Stream Selection</h3>
+    <h3>🎓 After 10th – Stream Selection Guide</h3>
 
-    🔹 Science (Doctor / Engineer) 🧪<br>
-    🔹 Commerce (Business / CA) 💰<br>
-    🔹 Arts (Teacher / Govt Jobs) 📚<br><br>
+    <h4>📚 Available Streams:</h4>
+    🔹 Science (Doctor / Engineer / Research) 🧪<br>
+    🔹 Commerce (Business / CA / Finance) 💰<br>
+    🔹 Arts (UPSC / Teacher / Govt Jobs) 📖<br><br>
 
-    <h4>💡 Kaise choose kare?</h4>
-    👉 Apne interest dekho<br>
-    👉 Future goal decide karo<br>
-    👉 Parents/teachers se advice lo<br><br>
+    <h4>🧠 Kaise Choose Kare?</h4>
+    👉 Apna interest aur passion identify karo<br>
+    👉 Strength dekho (Maths strong hai ya theory?)<br>
+    👉 Future career options research karo<br>
+    👉 Parents + teachers se guidance lo<br><br>
 
-    💡 Tip: Dusron ko dekh ke nahi, apne interest se choose karo 🚀
+    <h4>📊 Stream Wise Skills:</h4>
+    🔬 Science → Analytical thinking, problem solving<br>
+    📈 Commerce → Numbers, business mindset<br>
+    📝 Arts → Creativity, writing, understanding society<br><br>
+
+    <h4>⚠️ Common Mistakes:</h4>
+    ❌ Friends ko dekh ke stream choose karna<br>
+    ❌ Sirf marks ke basis pe decision lena<br>
+    ❌ Without research choose kar lena<br><br>
+
+    <h4>🚀 Pro Tips:</h4>
+    ✅ YouTube pe career videos dekho<br>
+    ✅ 1–2 din research karo har stream pe<br>
+    ✅ Demo classes try karo (agar possible ho)<br><br>
+
+    <h4>🎯 Bonus:</h4>
+    💡 Agar confuse ho to Science lena safe option hota hai (baad me switch possible hota hai)<br><br>
+
+    🔥 Final Tip: Apna decision khud lo — ye tumhari life hai 🚀
     `;
 }
 else if(input.includes("12") || input.includes("12th") || input.includes("career")) {
     result.innerHTML = `
-    <h3>🎯 After 12th – Career Options</h3>
+    <h3>🎯 After 12th – Career Options Guide</h3>
 
     <h4>🧪 Science Students:</h4>
-    👉 B.Tech / Engineering<br>
-    👉 MBBS / Medical<br><br>
+    👉 B.Tech / Engineering (Software, Mechanical, Civil)<br>
+    👉 MBBS / Medical (Doctor, Dentist, Pharmacist)<br>
+    👉 B.Sc (Research / Scientist)<br>
+    👉 BCA (Computer Applications / Coding) 💻<br><br>
 
     <h4>💰 Commerce Students:</h4>
-    👉 B.Com / CA / CS<br>
-    👉 Business / Startup<br><br>
+    👉 B.Com / CA / CS / CMA<br>
+    👉 BBA / MBA (Business Management)<br>
+    👉 Banking / Finance Jobs<br>
+    👉 BCA (IT Field me entry possible) 💻<br><br>
 
     <h4>📚 Arts Students:</h4>
-    👉 BA / UPSC / Govt Jobs<br>
-    👉 Teaching<br><br>
+    👉 BA (History, Political Science, Psychology)<br>
+    👉 UPSC / SSC / Govt Jobs<br>
+    👉 Teaching / Journalism / Law<br>
+    👉 BCA (Agar interest ho computers me) 💻<br><br>
 
-    <h4>💻 Other Options:</h4>
-    👉 Coding / IT skills<br>
-    👉 Freelancing<br>
-    👉 Digital marketing<br><br>
+    <h4>💻 High Income Skills (Sabke liye):</h4>
+    👉 Coding / Web Development 💻<br>
+    👉 Digital Marketing 📈<br>
+    👉 Video Editing 🎬<br>
+    👉 Freelancing 🌍<br><br>
 
-    💡 Tip: Skill + degree = success 💯
+    <h4>🧠 Kaise Choose Kare?</h4>
+    👉 Interest + passion identify karo<br>
+    👉 Market demand check karo<br>
+    👉 Course ki duration & fees samjho<br>
+    👉 Future salary & growth dekho<br><br>
+
+    <h4>⚠️ Common Mistakes:</h4>
+    ❌ Sirf degree ke piche bhaagna<br>
+    ❌ Bina research course choose karna<br>
+    ❌ Trend follow karna bina interest ke<br><br>
+
+    <h4>🚀 Pro Tips:</h4>
+    ✅ College + skill dono important hai<br>
+    ✅ Side me skill develop karo (coding, marketing)<br>
+    ✅ Internship jaldi start karo<br><br>
+
+    <h4>🎯 Bonus:</h4>
+    💡 BCA + MCA = Strong IT Career 🚀<br>
+    💡 BCA ke baad Software Developer, Web Developer ban sakte ho<br><br>
+
+    🔥 Final Tip: Degree se job milti hai, skill se growth hoti hai 🚀
     `;
 }
 
