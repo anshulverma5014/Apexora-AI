@@ -154,7 +154,7 @@ else if(input.includes("job") || input.includes("internship")) {
     </div>
 
     <div class="creator">
-        📢 <a href="https://ssc.nic.in/" target="_blank">SSC (Govt Exams)</a>
+        📢 <a href="https://sarkariresult.com.cm/" target="_blank">Sarkari Result</a>
     </div>
 
     <h4>📈 Job Strategy (Must Follow)</h4>
