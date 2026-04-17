@@ -45,9 +45,6 @@ Many students feel confused about their future. Apexora-AI aims to solve this pr
 
 ---
 
-## 📂 Project Structure
----
-
 ## 🤝 Contributing
 
 Contributions are welcome!  
