@@ -907,12 +907,40 @@ else if(input.includes("english")) {
     result.innerHTML = `
     <h3>🗣 English Learning Roadmap</h3>
 
-    🔹 Step 1: Daily 10 new words yaad karo<br>
-    🔹 Step 2: English me sochna start karo<br>
-    🔹 Step 3: Movies/YouTube English me dekho<br>
-    🔹 Step 4: Daily speaking practice karo<br><br>
+    <h4>📘 Step 1: Basics Strong Karo</h4>
+    🔹 Alphabet, basic words aur daily use sentences<br>
+    🔹 "I am, You are, He is" jaise structure samjho<br><br>
 
-    <h4>🔥 Best Channels:</h4>
+    <h4>⏰ Step 2: Tenses Master Karo</h4>
+    🔹 Present Tense (I eat, I am eating)<br>
+    🔹 Past Tense (I ate, I was eating)<br>
+    🔹 Future Tense (I will eat)<br>
+    🔹 Daily 5 sentence har tense me banao<br><br>
+
+    <h4>📖 Step 3: Vocabulary Boost</h4>
+    🔹 Daily 10-15 new words yaad karo<br>
+    🔹 Synonyms & Antonyms seekho<br>
+    🔹 Ek notebook maintain karo<br><br>
+
+    <h4>🧠 Step 4: Grammar Improve</h4>
+    🔹 Articles (a, an, the)<br>
+    🔹 Prepositions (in, on, at)<br>
+    🔹 Sentence structure (Subject + Verb + Object)<br><br>
+
+    <h4>🎧 Step 5: Listening Skills</h4>
+    🔹 English songs suno 🎵<br>
+    🔹 Movies / Web Series with subtitles dekho<br><br>
+
+    <h4>🗣 Step 6: Speaking Practice</h4>
+    🔹 Daily 5 min mirror practice<br>
+    🔹 Khud se English me baat karo<br>
+    🔹 Friends ke sath English try karo<br><br>
+
+    <h4>✍️ Step 7: Writing Practice</h4>
+    🔹 Daily 5 lines diary likho<br>
+    🔹 Simple sentences se start karo<br><br>
+
+    <h4>🔥 Best YouTube Channels:</h4>
 
     <div class="creator">
         <a href="https://www.youtube.com/@BBCLearningEnglish" target="_blank">BBC Learning English</a>
@@ -920,6 +948,10 @@ else if(input.includes("english")) {
 
     <div class="creator">
         <a href="https://www.youtube.com/@LearnEnglishWithTVSeries" target="_blank">Learn English with TV Series</a>
+    </div>
+
+    <div class="creator">
+        <a href="https://www.youtube.com/@SpeakEnglishWithMrDuncan" target="_blank">Speak English with Mr Duncan</a>
     </div>
 
     <h4>📱 Best Apps:</h4>
@@ -931,6 +963,16 @@ else if(input.includes("english")) {
     <div class="creator">
         <a href="https://play.google.com/store/apps/details?id=com.helloenglish" target="_blank">Hello English</a>
     </div>
+
+    <div class="creator">
+        <a href="https://play.google.com/store/apps/details?id=com.babbel.mobile.android.en" target="_blank">Babbel</a>
+    </div>
+
+    <h4>💡 Pro Tips:</h4>
+    🔸 Hindi se direct translate mat karo<br>
+    🔸 Short sentences se start karo<br>
+    🔸 Daily consistency sabse important hai<br>
+    🔸 Mistakes se daro mat 🚀<br>
     `;
 }
 
