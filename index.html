@@ -708,9 +708,12 @@
 
   <div class="search-tags">
     <span class="stag" onclick="fillSearch('Engineering kaise bane')">Engineering</span>
-    <span class="stag" onclick="fillSearch('Doctor kaise bane')">Doctor</span>
-    <span class="stag" onclick="fillSearch('IAS kaise bane')">IAS / Civil Services</span>
     <span class="stag" onclick="fillSearch('CA kaise bane')">CA</span>
+    <span class="stag" onclick="fillSearch('Banking career kaise banaye')">Banking</span>
+    <span class="stag" onclick="fillSearch('Pilot kaise bane')">Pilot</span>
+    <span class="stag" onclick="fillSearch('Graphic designer kaise bane')">Design</span>
+    <span class="stag" onclick="fillSearch('Chef kaise bane')">Chef</span>
+    <span class="stag" onclick="fillSearch('Stock market career')"> Finance</span>
   </div>
 </section>
 
@@ -997,7 +1000,185 @@
         { icon: '🚢', label: 'Indian Navy', url: 'https://www.joinindiannavy.gov.in/' },
         { icon: '📚', label: 'NDA Exam UPSC', url: 'https://www.upsc.gov.in/' },
       ]
-    },
+    ,
+
+  id: 'banker',
+  icon: '🏦',
+  color: '#001a2c',
+  accent: '#0096c7',
+  name: 'Banking / Finance',
+  desc: 'IBPS, SBI PO, RBI Grade B — sarkari bank mein officer bano ya private finance mein career banao.',
+  tags: ['IBPS PO', 'SBI PO', 'RBI'],
+  roadmap: [
+    { step: '12th', title: 'Commerce ya Koi bhi Stream', desc: 'Banking ke liye koi bhi stream chal sakti hai. Maths aur English strong karo.', chips: ['Any Stream', 'Maths', 'English'] },
+    { step: 'Graduation', title: 'Koi bhi Graduation Karo', desc: 'BA, BCom, BSc — koi bhi degree. IBPS ke liye graduation mandatory hai. 60%+ marks helpful hain.', chips: ['BCom', 'BA', 'BSc', '60%+'] },
+    { step: 'Exam', title: 'IBPS / SBI / RBI Exam', desc: 'IBPS PO (all banks), SBI PO (SBI), RBI Grade B (RBI) — teeno alag alag exams hain. Prelims + Mains + Interview.', chips: ['IBPS PO', 'SBI PO', 'RBI Grade B', 'Prelims+Mains'] },
+    { step: 'Clerk', title: 'Bank Clerk bhi option hai', desc: 'IBPS Clerk ya SBI Clerk — entry level position. Salary ₹20-28k/month + perks. Promotion se officer ban sakte ho.', chips: ['IBPS Clerk', 'SBI Clerk', '₹20-28k'] },
+    { step: 'Career', title: 'Bank Officer / Manager', desc: 'PO se start, fir Manager, AGM, DGM tak promotion. Private banks (HDFC, ICICI) mein direct apply kar sakte ho.', chips: ['PO', 'Manager', '₹5-15 LPA', 'Private Banks'] }
+  ],
+  links: [
+    { icon: '📝', label: 'IBPS Official', url: 'https://www.ibps.in/' },
+    { icon: '🏦', label: 'SBI Careers', url: 'https://bank.sbi/careers' },
+    { icon: '💰', label: 'RBI Grade B', url: 'https://www.rbi.org.in/' },
+    { icon: '📚', label: 'Oliveboard Free Mock', url: 'https://www.oliveboard.in/' },
+  ]
+},
+{
+  id: 'journalist',
+  icon: '📰',
+  color: '#1a0000',
+  accent: '#ef233c',
+  name: 'Journalism / Media',
+  desc: 'News anchor, reporter, digital media — India mein media ka bahut bada scope hai.',
+  tags: ['BJMC', 'Mass Comm', 'Media'],
+  roadmap: [
+    { step: '12th', title: 'Koi bhi Stream', desc: '12th kisi bhi stream se karo. English aur Hindi strong honi chahiye. Writing habit abhi se develop karo.', chips: ['Any Stream', 'English', 'Writing'] },
+    { step: 'Degree', title: 'BJMC / BA Mass Communication', desc: 'BJMC (Bachelor of Journalism & Mass Communication) best hai. IIMC, Jamia, Symbiosis top colleges hain.', chips: ['BJMC', 'IIMC', 'Jamia', 'Mass Comm'] },
+    { step: 'Skills', title: 'Reporting + Digital Skills', desc: 'Field reporting, anchoring, video editing, social media management, SEO — ye sab seekhna zaroori hai modern journalism mein.', chips: ['Reporting', 'Video Editing', 'SEO', 'Social Media'] },
+    { step: 'Internship', title: 'News Channel / Newspaper Internship', desc: 'NDTV, Aaj Tak, Dainik Bhaskar, The Hindu mein internship karo. Bylines collect karo portfolio ke liye.', chips: ['Internship', 'Bylines', 'Portfolio'] },
+    { step: 'Career', title: 'Reporter / Anchor / Digital Writer', desc: 'Print, TV, Digital — teeno mein scope hai. YouTube journalism bhi growing field hai. Salary ₹3-15 LPA depending on platform.', chips: ['Reporter', 'Anchor', 'Digital Media', '₹3-15 LPA'] }
+  ],
+  links: [
+    { icon: '📝', label: 'IIMC Admission', url: 'https://www.iimc.nic.in/' },
+    { icon: '📰', label: 'Jamia MCM', url: 'https://www.jmi.ac.in/' },
+    { icon: '🎥', label: 'Press Council India', url: 'https://www.presscouncil.nic.in/' },
+    { icon: '💼', label: 'Media Jobs', url: 'https://www.medianet.in/' },
+  ]
+},
+{
+  id: 'designer',
+  icon: '🎨',
+  color: '#1a001a',
+  accent: '#c77dff',
+  name: 'Graphic / UI Design',
+  desc: 'Figma, Adobe, branding — creative field mein ₹5-25 LPA aur freelancing ka unlimited scope.',
+  tags: ['BDes', 'NID', 'Figma'],
+  roadmap: [
+    { step: '12th', title: 'Koi bhi Stream + Portfolio', desc: 'Design ke liye stream matter nahi karta — creativity aur portfolio matter karta hai. Drawing/art abhi se practice karo.', chips: ['Any Stream', 'Portfolio', 'Creativity'] },
+    { step: 'Entrance', title: 'NID / NIFT / UCEED', desc: 'NID (National Institute of Design), NIFT, UCEED (IIT Design) — India ke top design entrances. Drawing test + portfolio important hai.', chips: ['NID', 'NIFT', 'UCEED', 'CEED'] },
+    { step: 'Degree', title: 'BDes / B.Sc Design', desc: '4 saal ki BDes degree. Graphic Design, UI/UX Design, Product Design — specialization chuno. Private colleges bhi achhe hain.', chips: ['BDes', 'UI/UX', 'Graphic Design', '4 Years'] },
+    { step: 'Tools', title: 'Industry Tools Seekho', desc: 'Figma (UI/UX), Adobe Photoshop, Illustrator, After Effects — ye sab industry standard tools hain. YouTube se free seekh sakte ho.', chips: ['Figma', 'Photoshop', 'Illustrator', 'After Effects'] },
+    { step: 'Career', title: 'Agency / Startup / Freelance', desc: 'Design agencies, tech startups, e-commerce companies mein jobs. Freelancing mein ₹500-5000/hour charge kar sakte ho.', chips: ['Freelance', 'Agency', 'Startup', '₹5-25 LPA'] }
+  ],
+  links: [
+    { icon: '🎨', label: 'NID Official', url: 'https://www.nid.edu/' },
+    { icon: '👗', label: 'NIFT Official', url: 'https://www.nift.ac.in/' },
+    { icon: '📐', label: 'UCEED IIT', url: 'https://www.uceed.iitb.ac.in/' },
+    { icon: '🖥️', label: 'Figma Free', url: 'https://www.figma.com/' },
+  ]
+},
+{
+  id: 'pilot',
+  icon: '✈️',
+  color: '#00101a',
+  accent: '#48cae4',
+  name: 'Pilot / Aviation',
+  desc: 'Commercial Pilot License (CPL) se IndiGo, Air India mein captain bano. Salary ₹15-80 LPA.',
+  tags: ['CPL', 'DGCA', 'Aviation'],
+  roadmap: [
+    { step: '12th', title: 'PCM Mandatory', desc: 'Physics aur Maths 12th mein 50%+ chahiye DGCA ke rules ke hisab se. English bhi strong honi chahiye.', chips: ['PCM', '50%+', 'English'] },
+    { step: 'Medical', title: 'Class 1 Medical Clearance', desc: 'DGCA approved doctor se Class 1 Medical certificate lena zaroori hai. Eyesight, hearing, fitness sab check hoti hai.', chips: ['Class 1 Medical', 'DGCA', 'Eyesight'] },
+    { step: 'Training', title: 'Flying School (CPL)', desc: 'DGCA approved flying school mein 200+ flying hours complete karo. India mein ₹25-40 lakh total cost. USA/Canada mein bhi jaate hain log.', chips: ['200 Hours', 'Flying School', '₹25-40L', 'CPL'] },
+    { step: 'License', title: 'DGCA CPL Exam', desc: 'DGCA ke written exams (Air Navigation, Meteorology, Air Regulations, Technical) clear karo. Fir skill test.', chips: ['DGCA Exam', 'Skill Test', 'CPL License'] },
+    { step: 'Career', title: 'Commercial Airline', desc: 'IndiGo, Air India, SpiceJet mein First Officer se start. 5-7 saal mein Captain. Salary ₹15-80 LPA depending on rank.', chips: ['First Officer', 'Captain', '₹15-80 LPA', 'IndiGo'] }
+  ],
+  links: [
+    { icon: '✈️', label: 'DGCA Official', url: 'https://www.dgca.gov.in/' },
+    { icon: '🛫', label: 'IndiGo Careers', url: 'https://careers.goindigo.in/' },
+    { icon: '📚', label: 'Flying Schools List', url: 'https://www.dgca.gov.in/digigov-portal/' },
+    { icon: '🌐', label: 'Air India Careers', url: 'https://www.airindia.com/in/en/careers.html' },
+  ]
+},
+{
+  id: 'psychologist',
+  icon: '🧠',
+  color: '#0d001a',
+  accent: '#9b5de5',
+  name: 'Psychologist / Counselor',
+  desc: 'Mental health field mein growing career — clinical, school, corporate psychology sab mein scope hai.',
+  tags: ['BSc Psychology', 'MA', 'RCI'],
+  roadmap: [
+    { step: '12th', title: 'Koi bhi Stream', desc: 'Psychology ke liye Arts ya Science dono chal sakti hai. Biology helpful hai clinical psychology ke liye.', chips: ['Any Stream', 'Biology helpful'] },
+    { step: 'Degree', title: 'BSc / BA Psychology', desc: 'BSc Psychology (Science stream) ya BA Psychology (Arts stream). Delhi University, Christ University, Fergusson College top hain.', chips: ['BSc Psychology', 'BA Psychology', 'DU', 'Christ'] },
+    { step: 'Masters', title: 'MA / MSc Psychology', desc: 'Masters almost mandatory hai practice ke liye. Clinical Psychology, Counselling Psychology, Organizational Psychology — specialization chuno.', chips: ['MA Psychology', 'MSc Clinical', 'NIMHANS'] },
+    { step: 'License', title: 'RCI Registration (Clinical)', desc: 'Clinical Psychologist ke liye Rehabilitation Council of India (RCI) registration zaroori hai. MPhil Clinical Psychology bhi karo.', chips: ['RCI', 'MPhil', 'Clinical License'] },
+    { step: 'Career', title: 'Hospital / Corporate / Private Practice', desc: 'Hospitals, schools, corporate wellness programs, NGOs, ya apni private practice. Salary ₹3-15 LPA, private practice mein aur zyada.', chips: ['Clinical', 'Corporate', 'School Counselor', '₹3-15 LPA'] }
+  ],
+  links: [
+    { icon: '🧠', label: 'RCI Official', url: 'https://www.rehabcouncil.nic.in/' },
+    { icon: '🏥', label: 'NIMHANS', url: 'https://nimhans.ac.in/' },
+    { icon: '📚', label: 'iCall Helpline', url: 'https://icallhelpline.org/' },
+    { icon: '💼', label: 'Psychology Jobs', url: 'https://www.naukri.com/psychology-jobs' },
+  ]
+},
+{
+  id: 'chef',
+  icon: '👨‍🍳',
+  color: '#1a0800',
+  accent: '#f4845f',
+  name: 'Chef / Hotel Management',
+  desc: 'IHM se 5-star hotel mein Executive Chef bano ya apna restaurant kholo. Abroad bhi bahut scope.',
+  tags: ['IHM', 'NCHMCT', 'Hotel Mgmt'],
+  roadmap: [
+    { step: '12th', title: 'Koi bhi Stream', desc: 'Hotel Management ke liye koi bhi stream chal sakti hai. English aur personality development important hai.', chips: ['Any Stream', 'English', 'Personality'] },
+    { step: 'Entrance', title: 'NCHMCT JEE', desc: 'National Council for Hotel Management Joint Entrance Exam — IHM colleges mein admission ke liye. Numerical Ability + Reasoning + English.', chips: ['NCHMCT JEE', 'IHM', 'NTA'] },
+    { step: 'Degree', title: 'BSc Hotel Management (3 yr)', desc: 'IHM Mumbai, Delhi, Chennai — India ke top hotel management institutes. Food Production, F&B Service, Housekeeping, Front Office.', chips: ['BSc HM', 'IHM Mumbai', '3 Years', 'Culinary Arts'] },
+    { step: 'Training', title: 'Industrial Training', desc: '6 months compulsory industrial training 5-star hotels mein. Taj, Oberoi, Marriott, Hyatt mein experience milta hai.', chips: ['Taj Hotels', 'Oberoi', 'Marriott', '6 Months'] },
+    { step: 'Career', title: 'Chef / F&B Manager / Own Restaurant', desc: 'Commis Chef se Executive Chef tak ka safar 8-10 saal. Abroad (UAE, UK, Australia) mein bhi bahut scope. Salary ₹3-25 LPA.', chips: ['Executive Chef', 'F&B Manager', 'Abroad', '₹3-25 LPA'] }
+  ],
+  links: [
+    { icon: '🏨', label: 'NCHMCT Official', url: 'https://www.nchm.nic.in/' },
+    { icon: '👨‍🍳', label: 'IHM Mumbai', url: 'https://ihmctan.edu.in/' },
+    { icon: '🌐', label: 'Hospitality Jobs', url: 'https://www.hcareers.in/' },
+    { icon: '📚', label: 'Culinary Institute', url: 'https://www.icajaipur.com/' },
+  ]
+},
+{
+  id: 'commerce',
+  icon: '📈',
+  color: '#001a0a',
+  accent: '#52b788',
+  name: 'Stock Market / Finance',
+  desc: 'SEBI, NSE certifications — trader, analyst, fund manager ya FinTech mein career banao.',
+  tags: ['NISM', 'CFA', 'MBA Finance'],
+  roadmap: [
+    { step: '12th', title: 'Commerce ya Maths', desc: 'Commerce stream best hai — Accounts, Economics, Maths lo. Stock market basics abhi se YouTube pe seekhna shuru karo.', chips: ['Commerce', 'Economics', 'Maths'] },
+    { step: 'Degree', title: 'BBA / BCom / BSc Economics', desc: 'BBA Finance, BCom, BSc Economics — koi bhi relevant degree. IIM Indore, SRCC, St. Xavier top colleges hain.', chips: ['BBA Finance', 'BCom', 'SRCC', 'Economics'] },
+    { step: 'Cert', title: 'NISM / NSE Certifications', desc: 'NISM Series exams (SEBI mandated), NSE Academy courses — ye professional credibility dete hain. CFA (USA) bhi kar sakte ho.', chips: ['NISM', 'CFA', 'NSE Academy', 'SEBI'] },
+    { step: 'MBA', title: 'MBA Finance (Optional)', desc: 'IIM, FMS, IIFT se MBA Finance karo — placement ₹15-40 LPA milta hai. CAT clear karna hoga.', chips: ['MBA Finance', 'IIM', 'CAT', 'FMS'] },
+    { step: 'Career', title: 'Analyst / Trader / Fund Manager', desc: 'Equity Research, Investment Banking, Portfolio Management, FinTech — bahut options hain. Top salary ₹10-50 LPA.', chips: ['Equity Research', 'Investment Banking', 'Fund Manager', '₹10-50 LPA'] }
+  ],
+  links: [
+    { icon: '📈', label: 'NSE Academy', url: 'https://www.nseindia.com/education' },
+    { icon: '📝', label: 'NISM Exams', url: 'https://www.nism.ac.in/' },
+    { icon: '🎓', label: 'CFA Institute', url: 'https://www.cfainstitute.org/' },
+    { icon: '💹', label: 'Zerodha Varsity', url: 'https://zerodha.com/varsity/' },
+  ]
+},
+{
+  id: 'socialwork',
+  icon: '🤝',
+  color: '#001a10',
+  accent: '#40916c',
+  name: 'Social Work / NGO',
+  desc: 'MSW se government jobs, UN agencies, international NGOs — society ke liye kaam karo aur achhi salary bhi pao.',
+  tags: ['BSW', 'MSW', 'NGO'],
+  roadmap: [
+    { step: '12th', title: 'Koi bhi Stream', desc: 'Social work ke liye koi bhi stream chal sakti hai. Empathy, communication aur social awareness important qualities hain.', chips: ['Any Stream', 'Communication'] },
+    { step: 'Degree', title: 'BSW / BA Sociology', desc: 'BSW (Bachelor of Social Work) ya BA Sociology — 3 saal. TISS Mumbai, Delhi School of Social Work top hain.', chips: ['BSW', 'Sociology', 'TISS', '3 Years'] },
+    { step: 'Masters', title: 'MSW (2 saal)', desc: 'MSW almost mandatory hai senior positions ke liye. TISS Mumbai ke liye TISS BAT exam dena hoga. Specialization: Community, Medical, HR.', chips: ['MSW', 'TISS BAT', 'Specialization'] },
+    { step: 'Field', title: 'Field Work + Internship', desc: 'Social work mein practical field work bahut important hai. NGOs, government schemes, hospitals mein kaam karo.', chips: ['Field Work', 'NGO Internship', 'Community Work'] },
+    { step: 'Career', title: 'NGO / Government / UN', desc: 'UNICEF, UN Women, government welfare departments, CSR roles in corporates. Salary ₹3-15 LPA, international orgs mein aur zyada.', chips: ['UNICEF', 'UN', 'CSR', '₹3-15 LPA'] }
+  ],
+  links: [
+    { icon: '🎓', label: 'TISS Mumbai', url: 'https://www.tiss.edu/' },
+    { icon: '🤝', label: 'NGO Jobs', url: 'https://www.devnetjobsindia.org/' },
+    { icon: '🌐', label: 'UN Careers', url: 'https://careers.un.org/' },
+    { icon: '📚', label: 'Govt Welfare Schemes', url: 'https://www.india.gov.in/' },
+  ]
+}
+
+    
   ];
 
   const faqData = [
@@ -1023,6 +1204,14 @@
     { title: '12th ke baad kya karein', desc: 'Science, Commerce, Arts — sab options', id: null },
     { title: 'Best career for girls in India', desc: 'Medicine, Law, CS, Teaching', id: null },
     { title: 'Sarkari naukri ke options', desc: 'UPSC, SSC, Bank, Railway', id: 'ias' },
+    { title: 'Banking career kaise banaye', desc: 'IBPS PO, SBI PO, RBI Grade B, bank officer', id: 'banker' },
+    { title: 'Journalist kaise bane', desc: 'BJMC, Mass Communication, news anchor, reporter', id: 'journalist' },
+    { title: 'Graphic designer kaise bane', desc: 'NID, NIFT, UI UX design, Figma, Adobe', id: 'designer' },
+    { title: 'Pilot kaise bane', desc: 'CPL, DGCA, aviation, commercial pilot, IndiGo Air India', id: 'pilot' },
+    { title: 'Psychologist kaise bane', desc: 'BSc Psychology, counselor, clinical, NIMHANS, RCI', id: 'psychologist' },
+    { title: 'Chef kaise bane', desc: 'Hotel management, IHM, NCHMCT, culinary arts, 5 star hotel', id: 'chef' },
+    { title: 'Stock market career', desc: 'NISM, CFA, equity research, investment banking, finance', id: 'commerce' },
+    { title: 'Social work NGO career', desc: 'MSW, TISS, NGO, UNICEF, community development', id: 'socialwork' },
   ];
 
   /* ── RENDER CAREERS ── */
